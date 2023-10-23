@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Biodata</title>
+    
+    <title>Eilman's Biodata</title>
     <style>
+        body {
+            background-image: url('./biodata_bg_image.png');
+            background-size: cover;
+        }
         table {
             border-collapse: collapse;
             width: 100%;
@@ -14,32 +19,48 @@
             padding: 8px;
         }
         th {
-            background-color: #f2f2f2;
+            color: #ddd;
+            background-color: #181818;
+            border: 1px solid #ddd;
         }
+        td {
+            border: 1px solid #181818;
+            background-color: #ddd;
+        }
+        h1 {
+            text-align: center;
+            color: #ddd;
+        }
+        img {
+            align-items: center;
+            height: 150px;
+            width: 130px;
+        }
+       
     </style>
 </head>
 <body>
-    <h1>Biodata</h1>
+    <h1>Eilman's Biodata</h1>
     <table>
         <tr>
-            <td>Name</td>
+            <th>Name</th>
             <td>Muhammad Eilman bin Hasbollah</td>
-            <td class ="photo"><img src="./github_profile.jpg" alt="" width="90px" height="120px"></td>
+            <td class ="photo"><img src="./github_profile.jpg" alt=""></td>
         </tr>
         <tr>
-            <td>Date of Birth</td>
+            <th>Date of Birth</th>
             <td colspan="2">1st July 2002</td>
         </tr>
         <tr>
-            <td>Religion</td>
+            <th>Religion</th>
             <td colspan="2">Islam</td>
         </tr>
         <tr>
-            <td>Race</td>
+            <th>Race</th>
             <td colspan="2">Melayu</td>
         </tr>
         <tr>
-            <td rowspan="4">Address</td>
+            <th rowspan="4">Address</th>
             <td>Street</td>
             <td>Jalan Dato' Seth</td>
         </tr>
@@ -56,7 +77,7 @@
             <td>Johor</td>
         </tr>
         <tr>
-            <td rowspan="3">Contact</td>
+            <th rowspan="3">Contact</th>
             <td>Mobile Phone</td>
             <td>01111775676</td>
         </tr>
@@ -69,20 +90,20 @@
             <td>not publised yet</td>
         </tr>
         <tr>
-            <td>Course and Institution</td>
+            <th>Course and Institution</th>
             <td colspan="2">FSKTM - UTHM</td>
         </tr>
         <tr>
-            <td>Programming Skills</td>
+            <th>Programming Skills</th>
             <td colspan="2">Java, C, HTML, PHP</td>
         </tr>
         <tr>
-            <td>Personal Interest</td>
+            <th>Personal Interest</th>
             <td colspan="2">Video Games</td>
         </tr>
         <tr>
-            <td>Future Plan in 2024</td>
-            <td colspan="2">Pursue carrer in IT field.</td>
+            <th>Future Plan in 2024</th>
+            <td colspan="2">Pursue carrer in IT field after finised study.</td>
         </tr>
     </table>
 </body>
